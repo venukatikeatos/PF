@@ -11,13 +11,19 @@ display: flex;
 } */
 
 /* .profile-bg {
-    width: 100%;
+    width: 40%;
     position: absolute;
-    background-color: #5be4a1;
     height: 75%;
     clip-path: inset(0 round 50% 0 0);
     bottom: 0%;
+}
+
+img{
+    position: relative; 
+    margin: 0 auto;
+    height: 90%;
 } */
-.col-md-4{
-    padding: 0;
+.profile{
+    clip-path: xywh(10% 30px 80% 85% round 15% 15%);    background-color: #5be4a1;
+
 }

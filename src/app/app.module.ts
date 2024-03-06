@@ -5,23 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './nav/navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
-import { RouterModule, Routes } from '@angular/router';
+import { RouterModule } from '@angular/router';
+import { FooterComponent } from './footer/footer.component';
 
-const appRoutes : Routes =[
-  // {path:'',component:AppComponent},
-  {path:'home',component:HomeComponent},
-  {path:'home',component:AppComponent},
-]
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,RouterModule.forRoot(appRoutes)
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

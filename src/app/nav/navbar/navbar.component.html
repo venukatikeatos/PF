@@ -6,12 +6,20 @@
     </div>
       
   
-      <div class="navbar-nav ml-auto mt-1 mb-1 ">  
+      <!-- <div class="navbar-nav ml-auto mt-1 mb-1 ">  
           <a class="nav-link px-lg-4" routerLink="/home">Home</a>
-          <a class="nav-link px-lg-4" routerLink="/about">About</a>
+          <a class="nav-link px-lg-4" id="contact" routerLink="/about">About</a>
           <a class="nav-link px-lg-4" routerLink="/mywork">MyWork</a>
           <a class="nav-link px-lg-4" routerLink="/skills">Skills</a>
           <button type="button" class="btn btn-danger px-lg-4 me-3">Resume</button>
-      </div>
+      </div> -->
+      <div class="navbar-nav ml-auto mt-1 mb-1">
+        <!-- <a class="nav-link px-lg-4" (click)="scrollToElement('#home')">Home</a> -->
+        <a class="nav-link px-lg-4" (click)="scrollToAbout()">About</a>
+        <!-- <a class="nav-link px-lg-4" (click)="scrollToElement('#mywork')">My Work</a>
+        <a class="nav-link px-lg-4" (click)="scrollToElement('#skills')">Skills</a> -->
+        <button type="button" class="btn btn-danger px-lg-4 me-3">Resume</button>
+    </div>
+    
    
   </nav>

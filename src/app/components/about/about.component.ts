@@ -2,22 +2,20 @@ import { Component, OnInit } from '@angular/core';
 import { ScrollService } from 'src/app/Services/Smooth-Scroll/scroll.service';
 
 @Component({
-  selector: 'app-navbar',
-  templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css']
+  selector: 'app-about',
+  templateUrl:'./about.component.html',
+  styleUrls: ['./about.component.css']
 })
-export class NavbarComponent implements OnInit {
-  logo='Venu Katike';
+export class AboutComponent implements OnInit{
+
+
   constructor(private scrollService:ScrollService) {
 
   }
   ngOnInit(): void {
   }
 
-  scrollToAbout(): void {
-    this.scrollService.scrollToElement('contact');
-  }
-  scrollToSkills(): void {
+  scrollToContact(): void {
     this.scrollService.scrollToElement('contact');
   }
 }

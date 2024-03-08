@@ -1,0 +1,37 @@
+
+/* .imga img{
+width: 300px;
+height: 30px;
+display: flex;
+} */
+
+/* .profile-bg {
+    width: 40%;
+    position: absolute;
+    height: 75%;
+    clip-path: inset(0 round 50% 0 0);
+    bottom: 0%;
+}
+*/
+img{
+    position: relative; 
+    margin: 0 auto;
+    height: 90%;
+} 
+.profile{
+    clip-path: xywh(10% 30px 80% 85% round 15% 15%);   background-color: #5be4a1;
+
+}
+
+  
+  p {
+    font-size: 1.5em;
+    color: #dddddd;
+    justify-content: center;
+  
+  } 
+
+ 
+
+
+  

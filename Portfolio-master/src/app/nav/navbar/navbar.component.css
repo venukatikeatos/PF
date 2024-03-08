@@ -1,0 +1,11 @@
+nav{
+    border-bottom:2px solid #2a3e4b;
+}
+
+.logo a{
+    font-family: cursive;
+    font-size: 30px;
+    padding: 0;
+    color: #1be657;
+    clip-path: inset(0 round 10% 10% );   background-color: #1d4934;
+}

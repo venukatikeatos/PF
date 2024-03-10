@@ -9,6 +9,7 @@ import { MyworkComponent } from './components/mywork/mywork.component';
 import { ProfileComponent } from './profile/profile.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
+import { SkillsComponent } from './components/skills/skills.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { HomeComponent } from './components/home/home.component';
     AboutComponent,
     HomeComponent,
     MyworkComponent,
-    ProfileComponent
+    ProfileComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,

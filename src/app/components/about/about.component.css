@@ -1,0 +1,22 @@
+.about{
+    padding-top: 83px;
+    background-color: #1a202c;
+    color: aliceblue;
+}
+
+.Experience{
+    font-family: 'League Spartan', sans-serif;
+    text-align: justify;
+}
+.section-headding{
+    text-align: justify;
+
+}
+
+@media (max-width: 576.98px) {
+  
+    .container{
+        padding: 40px!important;
+    }
+    
+  }

@@ -38,6 +38,51 @@ export class ProfileDataService {
       mediumlink: 'https://medium.com/analytics-vidhya/spring-boot-angular-8-crud-example-8aeafd47b54',
       imgUrl: 's/assets/images/v1.png',
       tech: 'Angular 16, DotNet core ,Web Api'
+    },{
+      id: 10,
+      title: 'DotNet core + Angular 16 CRUD Example',
+      desc: '',
+      livedemo: 'https://github.com/mehulk05/Spring-Boot-Angular-8-CRUD-Example',
+      githurl: 'https://github.com/mehulk05/Spring-Boot-Angular-8-CRUD-Example',
+      mediumlink: 'https://medium.com/analytics-vidhya/spring-boot-angular-8-crud-example-8aeafd47b54',
+      imgUrl: 's/assets/images/v1.png',
+      tech: 'Angular 16, DotNet core ,Web Api'
+    },{
+      id: 10,
+      title: 'DotNet core + Angular 16 CRUD Example',
+      desc: '',
+      livedemo: 'https://github.com/mehulk05/Spring-Boot-Angular-8-CRUD-Example',
+      githurl: 'https://github.com/mehulk05/Spring-Boot-Angular-8-CRUD-Example',
+      mediumlink: 'https://medium.com/analytics-vidhya/spring-boot-angular-8-crud-example-8aeafd47b54',
+      imgUrl: 's/assets/images/v1.png',
+      tech: 'Angular 16, DotNet core ,Web Api'
+    },{
+      id: 10,
+      title: 'DotNet core + Angular 16 CRUD Example',
+      desc: '',
+      livedemo: 'https://github.com/mehulk05/Spring-Boot-Angular-8-CRUD-Example',
+      githurl: 'https://github.com/mehulk05/Spring-Boot-Angular-8-CRUD-Example',
+      mediumlink: 'https://medium.com/analytics-vidhya/spring-boot-angular-8-crud-example-8aeafd47b54',
+      imgUrl: 's/assets/images/v1.png',
+      tech: 'Angular 16, DotNet core ,Web Api'
+    },{
+      id: 10,
+      title: 'DotNet core + Angular 16 CRUD Example',
+      desc: '',
+      livedemo: 'https://github.com/mehulk05/Spring-Boot-Angular-8-CRUD-Example',
+      githurl: 'https://github.com/mehulk05/Spring-Boot-Angular-8-CRUD-Example',
+      mediumlink: 'https://medium.com/analytics-vidhya/spring-boot-angular-8-crud-example-8aeafd47b54',
+      imgUrl: 's/assets/images/v1.png',
+      tech: 'Angular 16, DotNet core ,Web Api'
+    },{
+      id: 10,
+      title: 'DotNet core + Angular 16 CRUD Example',
+      desc: '',
+      livedemo: 'https://github.com/mehulk05/Spring-Boot-Angular-8-CRUD-Example',
+      githurl: 'https://github.com/mehulk05/Spring-Boot-Angular-8-CRUD-Example',
+      mediumlink: 'https://medium.com/analytics-vidhya/spring-boot-angular-8-crud-example-8aeafd47b54',
+      imgUrl: 's/assets/images/v1.png',
+      tech: 'Angular 16, DotNet core ,Web Api'
     },
 
   ]

@@ -8,6 +8,16 @@ export class ProfileDataService {
 
   constructor() { }
 
+  myExperience:any=[{
+          companyName:"Atos Syntel,Pune",
+          experienceFromTo:"Present - 24 Jan 2022",
+          desc:'Working as a Dot Net FullStack Developer',  },
+          {
+            companyName:"B.Tech in Computer Science",
+            experienceFromTo:"2017 -2021",
+            desc:'B.Tech Graduate in Computer Science and Engineering',
+       
+    }]
   projects:any = [
    
     {
@@ -74,44 +84,65 @@ export class ProfileDataService {
   skills:any=[
     {
       id:1,
-      imgUrl:"",
+      imgUrl:"/assets/images/angular.png",
       tech:'Angular'
     },
     {
       id:1,
-      imgUrl:"",
+      imgUrl:"/assets/images/javascript.svg",
       tech:'Angular'
     },
     {
       id:1,
-      imgUrl:"",
+      imgUrl:"/assets/images/npm.svg",
       tech:'Angular'
     },
     {
       id:1,
-      imgUrl:"",
+      imgUrl:"/assets/images/bootstrap.svg",
       tech:'Angular'
     },
     {
       id:1,
-      imgUrl:"",
+      imgUrl:"/assets/images/css3.svg",
       tech:'Angular'
     },
     {
       id:1,
-      imgUrl:"",
+      imgUrl:"/assets/images/html5.svg",
       tech:'Angular'
     },
     {
       id:1,
-      imgUrl:"",
+      imgUrl:"/assets/images/jwt.png",
       tech:'Angular'
     },
     {
       id:1,
-      imgUrl:"",
+      imgUrl:"/assets/images/git.svg",
       tech:'Angular'
-    }
+    },
+    {
+      id:1,
+      imgUrl:"/assets/images/materialui.svg",
+      tech:'Angular'
+    },
+    {
+      id:1,
+      imgUrl:"/assets/images/postman.png",
+      tech:'Angular'
+    },
+    {
+      id:1,
+      imgUrl:"/assets/images/sass.png",
+      tech:'Angular'
+    },
+    {
+      id:1,
+      imgUrl:"/assets/images/vscode.png",
+      tech:'Angular'
+    },
+    
   ]
 
   getProjects(): Observable<any> {
@@ -121,5 +152,9 @@ export class ProfileDataService {
   getSkills(): Observable<any> {
     // return this.http.get(this.baseUrl + 'skills');
     return this.skills;
+  }
+  getmyExperience(): Observable<any> {
+    // return this.http.get(this.baseUrl + 'skills');
+    return this.myExperience;
   }
 }

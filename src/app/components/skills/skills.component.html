@@ -1,4 +1,4 @@
-<section class="skills bg-primary" id="skills">
+<section class="skills" id="skills">
     <div class="container">
         <!-- Section Headding -->
         <div class="row">
@@ -7,10 +7,11 @@
         </div>
         </div>
            <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-2 mb-3" *ngFor="let project of skills">
-             <div class="">
+            <div class="col-sm-4 col-md-3 col-lg-2 mb-3" *ngFor="let project of skills">
+                <div class="card text-center text-white">
                 <img class="card-img-top" [src]="project.imgUrl" alt="Card image cap">
-             </div>
+                <p>{{project.tech}}</p>
+                </div>
             </div>
            </div>
        

@@ -1,3 +1,18 @@
-<section class="skills" id="skills">
-    <h1>My Skills</h1>
+<section class="skills bg-primary" id="skills">
+    <div class="container">
+        <!-- Section Headding -->
+        <div class="row">
+           <div class="section-headding mb-50 text-center text-white">
+              <h1>My <span class="text-danger">Skills</span></h1>
+        </div>
+        </div>
+           <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-2 mb-3" *ngFor="let project of skills">
+             <div class="">
+                <img class="card-img-top" [src]="project.imgUrl" alt="Card image cap">
+             </div>
+            </div>
+           </div>
+       
+    </div>
 </section>

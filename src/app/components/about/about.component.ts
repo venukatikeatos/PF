@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ScrollService } from 'src/app/Services/Smooth-Scroll/scroll.service';
+import { ProfileDataService } from 'src/app/Services/profile-data/profile-data.service';
 
 @Component({
   selector: 'app-about',
@@ -7,15 +7,14 @@ import { ScrollService } from 'src/app/Services/Smooth-Scroll/scroll.service';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit{
+experiences:any;
 
-
-  constructor(private scrollService:ScrollService) {
+  constructor(private exp:ProfileDataService) {
 
   }
   ngOnInit(): void {
+    this.experiences=this.exp.getmyExperience();
   }
 
-  scrollToContact(): void {
-    this.scrollService.scrollToElement('contact');
-  }
+  
 }
